@@ -1,6 +1,6 @@
 {
     "version": "V0.1(20220618)",
     "versionCode": 1,
-    "zipUrl": url,
-    "changelog": url
+    "zipUrl": "https://raw.githubusercontent.com/jark006/freezeitRelease/main/冻它V0.1(20220618).zip",
+    "changelog": "https://raw.githubusercontent.com/jark006/freezeitRelease/main/changelog.txt"
 }
