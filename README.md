@@ -5,7 +5,7 @@
 Automatically freeze background apps that are power-hungry and not necessarily running.
 
 
-- 基本说明 Ver1.4：
+- 基本说明 Ver1.5：
   - 1.白名单模式强制开放主流第三方输入法(非全部)、[ 微信(推送)/
       QQ/TIM/钉钉 ]，所以上述应用都不用手动配白名单。
   - 2.微信已单独保留推送进程而暂停其余进程，所以微信消息比较多
@@ -29,7 +29,7 @@ Automatically freeze background apps that are power-hungry and not necessarily r
   - 5.不支持亮屏的后台音乐，但支持播放中直接息屏，播放不受影响，
       悬浮应用暂不支持，正在攻关。请加入白名单，或悬挂小窗。
 
-- 2022-06-20 Ver1.4更新内容：
+- 2022-06-20 Ver1.5更新内容：
   - 1.全面切换到白名单模式，该开发分支的效果灰常好，已并入主分支，
       已取消后续黑名单模式的开发(之前的黑/白名单热切换机制白费了)。
   - 2.新增强制白名单内容 (均为第三方应用)：
@@ -41,7 +41,8 @@ Automatically freeze background apps that are power-hungry and not necessarily r
       c.其他 [ 李跳跳 ]
   - 3.后台任务冻结由[立即执行]改为[超时10秒]，修复打开应用时被系统
       授权弹窗干扰而卡死的BUG.
-  - 4.本次依旧限时公测，将于[ 2022-07-16 00:00:00 ]过期，因为短
+  - 4.修复关闭应用导致的日志无限循环
+  - 5.本次依旧限时公测，将于[ 2022-07-16 00:00:00 ]过期，因为短
       时间内无法及时发现所有BUG, 运行越久越容易触发未知BUG,不想留
       给后来人承受这些恶果，模块会在到期前发布新版，敬请留意，适配
       了Magisk的模块更新机制，能连上GitHub就可以在里面更新，顺道
