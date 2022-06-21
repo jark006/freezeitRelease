@@ -23,7 +23,7 @@ Automatically freeze those third-party background applications that consume more
       的类似功能，效率更高，省电效果不是一般大。
   - 9.冻它模块与App通信采用TCP_SOCKET(127.0.0.1 本地环回)，因此
       通信范围仅限本机内部，没有隐私泄漏风险。APP端开源，欢迎参观
-      屎山代码。
+      代码，但C++端屎山代码暂时闭源。
   - 10.本次依旧限时公测，将于[ 2022-07-16 00:00:00 ]过期，因为短
       时间内无法及时发现所有BUG, 运行越久越容易触发未知BUG,不想留
       给后来人承受，模块会在到测试到期前发布新版，敬请留意，适配了
@@ -62,7 +62,10 @@ Automatically freeze those third-party background applications that consume more
   - 1.计划研究Framework，ActivityManager等底层，重塑Activity生命周期，
       主要是[ OnPause/OnResume ]等底层机制。 可解决[ 重回应用 ]再次显示
       广告问题。(触动大厂利益，感觉我可能会凉(参考李跳跳)，如果大饼没完成
-      或者本模块用户体量低，那我暂时还是安全的)。
+      或者本模块用户体量低，那我暂时还是安全的。已完成的C++源码(含全套
+      自动构建)会自动更新并托管多个Git平台，超过一年未更新将自动设为Public
+      Repositories，届时我要是没有消息了，你要是无聊可以多点关键词搜搜各大
+      Git平台(用户名随机，仓库名不变)。以上无他，妄想症而已)。
 
 - 更新内容 2022-06-22 Ver1.6 -> Ver1.6.2
   - 1.没啥说的，就是刷刷版本号，诶，就是玩。
