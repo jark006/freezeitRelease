@@ -45,7 +45,7 @@ Automatically freeze those third-party background applications that consume more
   - 4.将针对已接入系统推送而收到消息的APP开放临时后台(优先适配MIpush)，
       点击消息可拉起应用。
   - 5.将优化微信，支付宝拉起支付服务。
-  - 6.将优化兼容系统[ 暂停已缓存]
+  - 6.将优化兼容系统[ 暂停执行已缓存的应用 ]服务。
   - 7.将智能识别开放有后台音频播放，下载服务的应用，停止播放和下载完成
       将进入超时列队，超时后暂停。
   - 8.将对 surfaceflinger 进程拦截注入同步获取前台任务，放弃定时轮询，
@@ -64,7 +64,7 @@ Automatically freeze those third-party background applications that consume more
       广告问题。(触动大厂利益，感觉我可能会凉(参考李跳跳)，如果大饼没完成
       或者本模块用户体量低，那我暂时还是安全的)。
 
-- 更新内容 2022-06-20 Ver1.6 -> Ver1.6.1
+- 更新内容 2022-06-20 Ver1.6 -> Ver1.6.2
   - 1.没啥说的，就是刷刷版本号，诶，就是玩。
   - 2.禁用日志文件记录，只会在开机时刻输出本次说明。
 
@@ -76,7 +76,7 @@ Automatically freeze those third-party background applications that consume more
       时被系统授权弹窗干扰而卡死的BUG。
   - 2.修复关闭应用导致的日志无限刷新。
 
-- Ver1.6.1 仍存在的问题：
+- Ver1.6.2 仍存在的问题：
   - 0.模块有意外停止工作可能，被冻结的应用打开后无法解冻进而卡住，
       但不影响推送，请划掉再打开。因为只管理第三方应用，模块挂了
       也无法影响系统，请放心使用。(判断方式：APP上线前，请开个白
@@ -95,9 +95,3 @@ Automatically freeze those third-party background applications that consume more
 
 
 - 别看，没有运行日志了，看看此文件的更新时间判断模块启动了没。
-
-
-[2022-06-22 06:00:00] I 开始定时自动构建
-[2022-06-22 06:00:05] I 构建项目完成 Output: Error 0.
-[2022-06-22 06:00:05] I 开始 git push
-[2022-06-22 06:00:09] I Push 完成
