@@ -110,4 +110,3 @@ Automatically freeze those third-party background applications that consume more
       切断唤醒看能不能解决，或者找找是被谁唤醒，我一个人任务量太大。
       (目前已发现：抖音/头条/腾讯视频/美的美居)
 
-1.恢复日志文件记录。2.尝试修复运行一段时间就挂掉的BUG，未完全验证。3.尝试将第三方应用(无论是否白名单)提权到系统应用运行级别，尽量避免被杀，未完全验证。
