@@ -7,7 +7,7 @@ Automatically freeze those third-party background applications that consume more
 
 - 更新内容 2022-07-07 Ver1.6.4 -> Ver2.0
   - 1.进一步优化自身功耗, 基于作者自测结果：相比使用Freezer机制的模块，压制能力更强, 相比使用kill/18/19/20机制、基于Xposed模块、Shell层实现的模块，效率更高，更加省电，可大大提升手机续航。
-  - 2.完善APP通讯接口, 完整整合全新APP, [APP已开源](https://github.com/jark006/freezeitapp)。
+  - 2.完善APP通讯接口, 完整整合全新APP, [APP已开源]( https://github.com/jark006/freezeitapp )。
   - 3.不再开放手动配置白名单及查看日志文件, 所有操作只支持在APP中进行。
   - 4.针对部分毒瘤诈尸行为进行反制, 反制措施延迟最长不超过2分钟，仅限用户打开过，且没有被杀的应用。
   - 5.加入模块自校验机制, 防止模块被篡改, 反制措施不会立即触发, 而且是对手机使用毫无影响的小小逻辑炸弹。
