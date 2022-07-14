@@ -1,6 +1,6 @@
 {
-    "version": "Ver2.0-20220707",
-    "versionCode": 20000,
-    "zipUrl": "https://github.com/jark006/freezeitRelease/raw/main/freezeitVer2.0-20220707.zip",
+    "version": "v2.1.1DevTest",
+    "versionCode": 20101,
+    "zipUrl": "https://github.com/jark006/freezeitRelease/raw/main/freezeit_v2.1.1DevTest.zip",
     "changelog": "https://github.com/jark006/freezeitRelease/raw/main/changelog.txt"
 }
