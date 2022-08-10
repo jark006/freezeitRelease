@@ -1,6 +1,6 @@
 {
-    "version": "v2.1.16.Beta",
+    "version": "v2.1.16.RC",
     "versionCode": 20116,
-    "zipUrl": "https://github.com/jark006/freezeitRelease/raw/main/freezeit_v2.1.16.Beta.zip",
+    "zipUrl": "https://github.com/jark006/freezeitRelease/raw/main/freezeit_v2.1.16.RC.zip",
     "changelog": "https://github.com/jark006/freezeitRelease/raw/main/changelog.txt"
 }
