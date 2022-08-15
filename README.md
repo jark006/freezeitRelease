@@ -5,6 +5,11 @@
 Automatically freeze those third-party background applications that consume more power and do not have to run. It is developed by C++ and runs natively, which is efficient and power-saving.
 
 
+- 更新内容 2022-08-15 v2.1.16 -> v2.2
+  - 1.无重大更新，单纯刷刷版本号。
+  - 2.微调lmk参数。
+  - 3.去除限时，本版本可长期使用。(实际本版本过期时间为:2050年)
+  
 - 更新内容 2022-08-10 v2.1.8 -> v2.1.16
   - 1.新增APP设置。
   - 2.新增主页CPU等实时信息。
