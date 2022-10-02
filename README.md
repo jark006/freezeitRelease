@@ -5,6 +5,11 @@
 Automatically freeze those third-party background applications that consume more power and do not have to run. It is developed by C++ and runs natively, which is efficient and power-saving.
 
 
+- 更新内容 2022-10-02 2.2.10 -> v2.2.11
+  - 1.修复一处可能导致FreezerV1泄漏的地方。
+  - 2.修复FreezerV2识别错误。
+  - 2.新增检查进程wchan状态, 可检查进程已否已经冻结。
+
 - 更新内容 2022-10-01 2.2.8.Dev -> v2.2.10
   - 1.微调UI, 新增图示说明。
   - 2.新增应用CPU使用时间。
