@@ -16,7 +16,7 @@ Automatically freeze those third-party background applications that consume more
   - 3.优化底层代码效率，新增更多工作异常输出日志。
   - 4.删除开机超时自闭机制, 请常备救砖模块防止模块冲突。
   - 5.调整唤醒锁：黑名单应用无法获得唤醒锁，动态应用冻结时忽略其唤醒锁功能。
-  - 6.尝试解决因socket:accept()异常导致的CPU占用100%问题(待验证)。
+  - 6.尝试解决socket:accept()异常(待验证)。
 
 - 基本说明( 使用前必读 ): 
   - 1.模块有内置白名单(后台自由，不冻结)，不可更改，其他应用可配置五种模式：
