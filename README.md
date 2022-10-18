@@ -5,6 +5,11 @@
 Automatically freeze those third-party background applications that consume more power and do not have to run. It is developed by C++ and runs natively, which is efficient and power-saving.
 
 
+- 更新内容 2022-10-18 2.2.12 -> v2.2.13
+  - 1.修复"播放中不冻结"应用在冻结状态无法响应广播导致各种卡住(卡通话/安装等等)。
+  - 2.调整定时解冻功能，若设为最小值10分, 则为关闭定时解冻。
+  - 3.调整部分功能词语描述。
+
 - 更新内容 2022-10-13 2.2.11 -> v2.2.12
   - 1.完善息屏深度Doze(息屏超时3分钟, 白名单的第三方列表为冻它的自由后台、内置自由应用)。
   - 2.新增息屏冻结(息屏超时3分钟将冻结前台, 自由后台除外)。
