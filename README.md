@@ -1,6 +1,38 @@
-# freezeit 冻它
+# Freezeit 冻它
 
-模拟墓碑机制，自动暂停第三方应用后台运行。[Q群 781222669]
+**[面具模块]** 模拟墓碑后台机制，自动暂停第三方应用后台运行。
+
+**[MagiskModule]** Emulate the Tombstone mechanism to automatically suspend third-party apps running in the background. 
+
+---
+
+[教程 Tutorials](https://jark006.github.io/FreezeitIntroduction/)
+
+[酷安 @JARK006](https://www.coolapk.com/u/1212220) 
+
+[QQ群组 781222669](https://jq.qq.com/?_wv=1027&k=Q5aVUglt)
+[Telegram Group 群组](https://t.me/+sjDX1oTk31ZmYjY1) [Channel 频道](https://t.me/freezeitRelease)
+[蓝奏云](https://jark006.lanzout.com/b017oz9if) 密码: dy6i
+
+---
+
+### v2.3.6 更新日志 2022-12-06
+- 尝试修复 Android 10-11 死机重启。
+- 更换冻它APP包名。
+
+### v2.3.4 更新日志 2022-12-04
+- 尝试修复前台状态识别。
+- 移除 [/dev/cg2_bpf] 路径的FreezerV2。
+
+### v2.3.2 更新日志 2022-12-03
+- 优化进Doze逻辑。
+- 调整绑定核心顺序。
+
+### v2.3.1 更新日志 2022-12-02
+- 更新前/后台策略(详情请看教程)。
+- 去除播放中不冻结，采用兼容性更强的宽松后台。
+- 去除音频识别功能。
+- 定时解冻最小时间改到3分钟。
 
 ### v2.2.18Fix 更新日志 2022-11-28
 - 移除挂载FreezerV2。
