@@ -11,10 +11,15 @@
 [酷安 @JARK006](https://www.coolapk.com/u/1212220) 
 
 [QQ群组 781222669](https://jq.qq.com/?_wv=1027&k=Q5aVUglt)
-[Telegram Group 群组](https://t.me/+sjDX1oTk31ZmYjY1) [Channel 频道](https://t.me/freezeitRelease)
-[蓝奏云](https://jark006.lanzout.com/b017oz9if) 密码: dy6i
+
+[Telegram Group](https://t.me/+sjDX1oTk31ZmYjY1)
+
+[蓝奏云下载](https://jark006.lanzout.com/b017oz9if) 密码: dy6i
 
 ---
+
+### v2.5.2 更新日志 2023-02-22
+- 调整FreezerV1机制：取消V1(UID)，原有配置换成V1(FROZEN)，原V1(FROZEN)改为V1(FROZEN+SIGSTOP)双重冻结。
 
 ### v2.5.1 更新日志 2023-02-18
 - 优化 APP UI 在横屏或平板显示效果。
